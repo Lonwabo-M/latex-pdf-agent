@@ -1,17 +1,9 @@
 {
   "name": "latex-pdf-agent",
   "version": "1.0.0",
-  "description": "LaTeX PDF rendering service with KaTeX support",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
+  "description": "LaTeX PDF rendering service",
   "dependencies": {
-    "express": "^4.18.2",
-    "puppeteer": "^21.6.1",
-    "cors": "^2.8.5"
-  },
-  "engines": {
-    "node": ">=18.0.0"
+    "puppeteer-core": "^21.6.1",
+    "@sparticuz/chromium": "^119.0.2"
   }
 }
